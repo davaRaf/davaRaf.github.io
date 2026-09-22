@@ -51,6 +51,13 @@
   .contacts.hero .c{padding:12px 14px;border-color:#2f3038}
   .contacts.hero .c a{font-size:15px}
   .contacts.hero .c:first-child{border-color:var(--accent)}
+  @media (max-width:640px){
+    header{padding:36px 0 24px}
+    .contacts.hero{grid-template-columns:1fr 1fr;gap:10px}
+    .contacts.hero .c{padding:10px 12px}
+    .contacts.hero .c a{font-size:13px}
+    .lead{font-size:15px}
+  }
   footer{padding:40px 0 56px;color:var(--muted);font-size:14px;border-top:1px solid var(--line);margin-top:40px}
 </style>
 </head>

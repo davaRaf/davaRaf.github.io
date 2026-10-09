@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Davyd Rafaelian — монтажёр коротких видео и креатор ИИ-видео</title>
+<meta name="description" content="Монтажёр коротких видео и креатор ИИ-видео в Будапеште. Реклама, UGC и Reels для брендов: хуки, монтаж, субтитры, звук и полностью сгенерированные ИИ сцены.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Davyd Rafaelian — монтажёр коротких видео и креатор ИИ-видео">
+<meta property="og:description" content="Портфолио: 95 видео — ИИ-реклама, UGC и мем-реклама, Reels для брендов.">
+<meta property="og:url" content="https://davaraf.github.io/ru.html">
+<link rel="alternate" hreflang="en" href="https://davaraf.github.io/">
+<link rel="alternate" hreflang="uk" href="https://davaraf.github.io/uk.html">
+<link rel="alternate" hreflang="ru" href="https://davaraf.github.io/ru.html">
+<link rel="alternate" hreflang="x-default" href="https://davaraf.github.io/">
+<meta property="og:image" content="https://davaraf.github.io/assets/og.jpg?v=2">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="Davyd Rafaelian">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#000000">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23000'/%3E%3Cpolygon points='40,28 74,50 40,72' fill='%23eee'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#000;--fg:#ededee;--mute:#8b8b90;--line:#1d1d20;--card:#0f0f11;--acc:#e4e4e7;--ease:cubic-bezier(.2,.7,.2,1)}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{background:var(--bg);color:var(--fg);font:16px/1.55 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+img,video{display:block;max-width:100%}
+.w{max-width:1180px;margin:0 auto;padding:0 32px}
+.eb{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+.btn{display:inline-flex;align-items:center;padding:12px 22px;border-radius:999px;border:1px solid var(--line);font-size:15px;font-weight:500;transition:background .25s,color .25s,border-color .25s,transform .25s var(--ease)}
+.btn:hover{border-color:#55555b;transform:translateY(-2px)}
+.btn.p{background:var(--acc);color:#000;border-color:var(--acc)}
+.btn.p:hover{background:#fff}
+
+/* nav */
+.nav{position:fixed;inset:0 0 auto;z-index:30;transition:background .3s,border-color .3s;border-bottom:1px solid transparent}
+.nav.s{background:rgba(0,0,0,.72);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-color:var(--line)}
+.nav .w{display:flex;justify-content:space-between;align-items:center;height:68px}
+.nav b{font-weight:600;font-size:15px}
+.nav nav{display:flex;gap:30px;font-size:14px;color:var(--mute)}
+.nav nav a{position:relative;transition:color .2s}
+.nav nav a:after{content:"";position:absolute;left:0;right:100%;bottom:-4px;height:1px;background:var(--fg);transition:right .3s var(--ease)}
+.nav nav a:hover{color:var(--fg)} .nav nav a:hover:after{right:0}
+
+/* hero */
+.hero{display:grid;grid-template-columns:540px 1fr;gap:40px;align-items:center;padding:96px 0 40px;min-height:min(100vh,860px)}
+.ph{width:540px;height:600px;object-fit:cover;
+  -webkit-mask-image:linear-gradient(to bottom,#000 62%,transparent 100%),linear-gradient(to right,transparent 0,#000 10%,#000 90%,transparent 100%);
+  -webkit-mask-composite:source-in;mask-composite:intersect;animation:phin 1.6s var(--ease) both}
+@keyframes phin{from{opacity:0;filter:blur(14px);transform:scale(1.04) translateX(-18px)}to{opacity:1;filter:none;transform:none}}
+h1{font-weight:600;font-size:clamp(40px,5vw,62px);line-height:1.04;letter-spacing:-.045em;margin:18px 0 22px}
+h1 em{font-style:normal;font-weight:300;color:var(--mute)}
+.lead{font-size:19px;color:var(--mute);max-width:520px;margin-bottom:32px}
+.btns{display:flex;gap:10px;flex-wrap:wrap}
+.up{animation:up .9s var(--ease) both;animation-delay:calc(.25s + var(--i,0) * .12s)}
+@keyframes up{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);padding-top:26px;margin-bottom:24px}
+.stats b{display:block;font-size:34px;font-weight:500;letter-spacing:-.03em;line-height:1.1}
+.stats span{color:var(--mute);font-size:14px}
+
+/* reveal on scroll */
+.js .r{opacity:0;transform:translateY(28px);transition:opacity .9s var(--ease),transform .9s var(--ease);transition-delay:var(--d,0s)}
+.js .r.in{opacity:1;transform:none}
+
+/* sections */
+section{border-top:1px solid var(--line);padding:80px 0}
+.hd{display:flex;justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap;margin-bottom:34px}
+h2{font-size:clamp(28px,3.2vw,40px);font-weight:500;letter-spacing:-.035em;line-height:1.1}
+.hd p{color:var(--mute);font-size:15px}
+
+/* styles */
+.styles{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.st{text-align:left;display:flex;flex-direction:column;justify-content:flex-start}
+.st .im{display:block;width:100%}
+.st .im{position:relative;aspect-ratio:3/4;border-radius:14px;overflow:hidden;background:var(--card)}
+.st img,.st video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .8s var(--ease),opacity .4s}
+.st video{opacity:0}
+.st.on video{opacity:1}
+.st:hover img{transform:scale(1.06)}
+.st>span:last-child{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-top:12px;font-size:14px;font-weight:500}
+.st>span:last-child:after{content:"↗";color:var(--mute);transition:transform .3s var(--ease),color .3s}
+.st:hover>span:last-child:after{transform:translate(2px,-2px);color:var(--fg)}
+
+/* work grid */
+.tabs{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:28px;border-bottom:1px solid var(--line)}
+.tab{padding:0 0 12px;font-size:14px;color:var(--mute);position:relative;transition:color .2s}
+.tab sup{font-size:11px;margin-left:3px}
+.tab:after{content:"";position:absolute;left:0;right:100%;bottom:-1px;height:1px;background:var(--fg);transition:right .35s var(--ease)}
+.tab:hover{color:var(--fg)}
+.tab.on{color:var(--fg)} .tab.on:after{right:0}
+.catsub{color:var(--mute);max-width:760px;margin:-8px 0 26px;font-size:15px}
+.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px 14px}
+.tile{text-align:left;display:flex;flex-direction:column;justify-content:flex-start;gap:10px}
+.tile[hidden],.more[hidden]{display:none}
+.more{display:block;margin:34px auto 0;padding:13px 26px;border:1px solid var(--line);border-radius:999px;font-size:15px;font-weight:500;transition:border-color .25s,transform .25s var(--ease)}
+.more:hover{border-color:#55555b;transform:translateY(-2px)}
+.shot{position:relative;aspect-ratio:4/5;border-radius:12px;overflow:hidden;background:var(--card)}
+.shot img{width:100%;height:100%;object-fit:cover;transition:transform .8s var(--ease),opacity .3s}
+.tile.wide .shot img{object-fit:contain}
+.tile:hover .shot img{transform:scale(1.05)}
+.play{position:absolute;inset:auto auto 10px 10px;width:34px;height:34px;border-radius:50%;background:rgba(0,0,0,.55);border:1px solid rgba(255,255,255,.25);opacity:0;transform:translateY(6px);transition:.35s var(--ease)}
+.play:after{content:"";position:absolute;left:13px;top:10px;border-left:10px solid #fff;border-top:7px solid transparent;border-bottom:7px solid transparent}
+.tile:hover .play,.tile:focus-visible .play{opacity:1;transform:none}
+.meta .t{font-size:14px;font-weight:500;line-height:1.35;display:block}
+.meta .g{font-size:12.5px;color:var(--mute)}
+.tile:focus-visible,.st:focus-visible,.tab:focus-visible{outline:1px solid var(--fg);outline-offset:4px;border-radius:12px}
+
+/* process */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
+.steps b{display:block;font-size:13px;color:var(--mute);font-weight:500;margin-bottom:16px}
+.steps h3{font-size:18px;font-weight:500;letter-spacing:-.01em;margin-bottom:8px}
+.steps p{color:var(--mute);font-size:15px}
+
+/* about */
+.about{display:grid;grid-template-columns:1fr 1fr;gap:64px}
+.about .big{font-size:clamp(22px,2.3vw,28px);line-height:1.4;letter-spacing:-.02em;font-weight:400}
+.about .big em{font-style:normal;color:var(--mute)}
+.facts div{display:flex;justify-content:space-between;gap:24px;padding:14px 0;border-bottom:1px solid var(--line);font-size:15px}
+.facts div:first-child{border-top:1px solid var(--line)}
+.facts span{color:var(--mute)} .facts b{font-weight:500;text-align:right}
+.tools{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.tools span{border:1px solid var(--line);border-radius:999px;padding:6px 13px;font-size:13px;color:var(--mute)}
+
+/* contact */
+.contact h2{font-size:clamp(40px,6.4vw,84px);font-weight:500;letter-spacing:-.05em;line-height:1}
+.contact h2 em{font-style:normal;font-weight:300;color:var(--mute)}
+.contact .sub{color:var(--mute);font-size:18px;margin:20px 0 40px;max-width:540px}
+.links a{display:flex;justify-content:space-between;align-items:center;padding:22px 0;border-bottom:1px solid var(--line);font-size:clamp(18px,2vw,22px);transition:padding .35s var(--ease),color .3s}
+.links a:first-child{border-top:1px solid var(--line)}
+.links small{color:var(--mute);font-size:13px;letter-spacing:.08em;text-transform:uppercase;width:130px}
+.links span{flex:1}
+.links i{font-style:normal;color:var(--mute);transition:transform .35s var(--ease),color .3s}
+.links a:hover{padding-left:12px} .links a:hover i{transform:translate(4px,-4px);color:var(--fg)}
+footer{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:var(--mute);font-size:14px;padding:40px 0 48px}
+
+/* player */
+dialog{border:0;padding:0;margin:auto;background:transparent;color:var(--fg);max-width:min(96vw,1100px);max-height:94vh;overflow:visible}
+dialog[open]{animation:pop .45s var(--ease)}
+@keyframes pop{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:none}}
+dialog::backdrop{background:rgba(0,0,0,.9)}
+.pl{display:grid;grid-template-columns:auto minmax(240px,320px);gap:28px;align-items:center}
+.pl video{max-height:86vh;max-width:min(62vw,720px);border-radius:14px;background:#000}
+.pl h3{font-size:21px;font-weight:500;letter-spacing:-.01em;line-height:1.3;margin-bottom:12px}
+.pl p{color:var(--mute);font-size:15px;margin-bottom:16px}
+.pl .tg{display:flex;flex-wrap:wrap;gap:6px}
+.pl .tg span{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:3px 10px;color:var(--mute)}
+.x{position:fixed;top:16px;right:18px;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);font-size:22px;line-height:1;background:#000}
+.x:hover{border-color:var(--fg)}
+
+.nr{display:flex;align-items:center;gap:28px}
+.lang{display:flex;gap:2px;padding:3px;border:1px solid var(--line);border-radius:999px;font-size:12px;font-weight:500;letter-spacing:.02em}
+.lang a{padding:4px 9px;border-radius:999px;color:var(--mute);transition:color .2s,background .2s}
+.lang a:hover{color:var(--fg)}
+.lang a.on{background:var(--fg);color:var(--bg)}
+@media (max-width:980px){
+  .hero{grid-template-columns:1fr;gap:8px;padding-top:80px;min-height:0}
+  .ph{width:100%;max-width:480px;height:auto;aspect-ratio:1;margin:0 auto}
+  .styles{grid-template-columns:repeat(3,1fr)}
+  .grid{grid-template-columns:repeat(3,1fr)}
+  .steps{grid-template-columns:1fr 1fr}
+  .about{grid-template-columns:1fr;gap:32px}
+  .pl{grid-template-columns:1fr;gap:14px;max-height:94vh;overflow:auto}
+  .pl video{max-width:100%;max-height:68vh;margin:0 auto}
+}
+@media (max-width:640px){
+  .w{padding:0 16px}
+  .nav nav{display:none}
+  .stats{grid-template-columns:1fr 1fr;gap:18px 0}
+  section{padding:60px 0}
+  .styles{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 -16px;padding:0 16px 6px;scrollbar-width:none}
+  .styles .st{flex:0 0 58%;scroll-snap-align:start}
+  .grid{grid-template-columns:1fr 1fr;gap:12px 10px}
+  .tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:0 -16px 24px;padding:0 16px}
+  .tab{white-space:nowrap}
+  .steps{grid-template-columns:1fr}
+  .links small{width:96px}
+  .play{opacity:1;transform:none;width:28px;height:28px}
+  .play:after{left:10px;top:8px;border-left-width:8px;border-top-width:6px;border-bottom-width:6px}
+}
+@media (prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.js .r{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<header class="nav" id="nav"><div class="w">
+  <a href="#top"><b>Davyd Rafaelian</b></a>
+  <div class="nr"><nav><a href="#work">Работы</a><a href="#styles">Стили</a><a href="#about">Обо мне</a><a href="#contact">Контакты</a></nav><div class="lang"><a href="./" hreflang="en" lang="en">EN</a><a href="uk.html" hreflang="uk" lang="uk">UA</a><a href="ru.html" hreflang="ru" lang="ru" class="on" aria-current="page">RU</a></div></div>
+</div></header>
+
+<main id="top">
+<div class="w">
+  <div class="hero">
+    <img class="ph" src="assets/davyd_tee.jpg" alt="Davyd Rafaelian" width="1000" height="1000">
+    <div>
+      <p class="eb up" style="--i:0">Davyd Rafaelian — видеомонтажёр</p>
+      <h1 class="up" style="--i:1">Короткие видео,<br>которые <em>останавливают скролл.</em></h1>
+      <p class="lead up" style="--i:2">Видеомонтажёр и креатор ИИ-видео в Будапеште. Реклама, UGC и Reels для брендов — от хука до финального монтажа.</p>
+      <div class="btns up" style="--i:3"><a class="btn p" href="#work">Смотреть работы</a><a class="btn" href="#contact">Контакты</a><a class="btn" href="cv.pdf" target="_blank" rel="noopener">CV</a></div>
+    </div>
+  </div>
+  <div class="stats">
+    <div class="r"><b data-count="95">95</b><span>видео в этом портфолио</span></div>
+    <div class="r" style="--d:.08s"><b>1,5+ года</b><span>в коротком контенте</span></div>
+    <div class="r" style="--d:.16s"><b data-count="6">6</b><span>стилей видео — от UGC до ИИ-рекламы</span></div>
+    <div class="r" style="--d:.24s"><b>EU &amp; UK</b><span>удалённо, с пересечением рабочих часов</span></div>
+  </div>
+</div>
+
+<section id="styles"><div class="w">
+  <div class="hd r"><h2>Стили, в которых я работаю</h2><p>Один монтажёр — разные форматы. Нажмите, чтобы посмотреть.</p></div>
+  <div class="styles">
+<button class="st r" style="--d:0.00s" data-src="videos/81.mp4" data-title="Полностью ИИ-сгенерированная реклама бренда (15 с)" data-desc="Пять кинематографичных кадров — крупный план продукта, дуэль, групповой кадр, появление логотипа — без съёмок, актёров и локаций. Писал промпты и референсы для света, движения камеры и боевых сцен; собрал с переходами, дымом, контровым светом и слоу-мо." data-tags="Higgsfield AI|Seedance 2.0|CapCut" aria-label="Смотреть: ИИ-реклама"><span class="im"><img src="thumbs/81.jpg" alt="" loading="lazy"></span><span>ИИ-реклама</span></button>
+<button class="st r" style="--d:0.07s" data-src="videos/s13.mp4" data-title="«Me after first sparring session / after the 10th»: до / после" data-desc="Склейка «до/после» с резкой сменой сцены и соответствующими субтитрами — формат, который хорошо работает в TikTok." data-tags="CapCut|До / после" aria-label="Смотреть: UGC и мем-реклама"><span class="im"><img src="thumbs/s13.jpg" alt="" loading="lazy"></span><span>UGC и мем-реклама</span></button>
+<button class="st r" style="--d:0.14s" data-src="videos/n6.mp4" data-title="Реклама в формате «говорящая голова» с субтитрами по ключевым словам (1:09)" data-desc="Питч в стиле основателя, смонтированный в рилс с упором на удержание: джамп-каты, ключевые слова в субтитрах, всплывающие в такт («YOU'RE TIRED OF…», «FORTUNE 500»), вставки B-roll. Сдан в двух версиях — динамичной с дополнительным движением и чистой, только с субтитрами." data-tags="CapCut|Говорящая голова|Субтитры по ключевым словам" aria-label="Смотреть: Talking head + субтитры"><span class="im"><img src="thumbs/n6.jpg" alt="" loading="lazy"></span><span>Talking head + субтитры</span></button>
+<button class="st r" style="--d:0.21s" data-src="videos/z1.mp4" data-title="Ламинирование ресниц по шагам, до / после (0:27)" data-desc="Реальные кадры из салона, собранные в рилс-процесс: кадр «до», пэды, каждый состав, фиксация и уход, затем кадр «после». Пронумерованные шаги в виде текста на экране." data-tags="CapCut|Бьюти|Рилс-процесс" aria-label="Смотреть: Бьюти Reels"><span class="im"><img src="thumbs/z1.jpg" alt="" loading="lazy"></span><span>Бьюти Reels</span></button>
+<button class="st r" style="--d:0.28s" data-src="videos/37.mp4" data-title="Рекламный концепт модного бренда — чёрное платье (0:08)" data-desc="Премиально-минималистичная модная реклама: модель в чёрном платье с фестончатым подолом на тёплом бежевом фоне идёт к камере, затем детали выреза и подола. Сгенерировано в Google Flow (Veo); сдано вместе с подходящим постером." data-tags="Google Flow (Veo)|Реклама моды|Постер|Моушн" aria-label="Смотреть: Продукт и мода"><span class="im"><img src="thumbs/37.jpg" alt="" loading="lazy"></span><span>Продукт и мода</span></button>
+<button class="st r" style="--d:0.35s" data-src="videos/n2.mp4" data-title="ИИ UGC-реклама: тональный крем (0:20)" data-desc="UGC-реклама косметики со сгенерированной ведущей: крупный план глаза, флакон в руке, нанесение спонжем, солнечное окно позади. Сделана так, чтобы выглядеть как селфи-видео на телефон — естественная кожа, съёмка с рук, никакого студийного глянца, — и восприниматься как нативный контент TikTok, а не как реклама." data-tags="ИИ UGC|Бьюти|TikTok|CapCut" aria-label="Смотреть: ИИ-ведущий / UGC"><span class="im"><img src="thumbs/n2.jpg" alt="" loading="lazy"></span><span>ИИ-ведущий / UGC</span></button>
+  </div>
+</div></section>
+
+<section id="work"><div class="w">
+  <div class="hd r"><h2>Все работы</h2><p>95 видео</p></div>
+  <div class="tabs r" role="tablist"><button class="tab on" data-f="all" aria-selected="true">Все<sup>95</sup></button><button class="tab" data-f="ai" aria-selected="false">ИИ-видео<sup>42</sup></button><button class="tab" data-f="ugc" aria-selected="false">Для клиентов<sup>9</sup></button><button class="tab" data-f="inhouse" aria-selected="false">In-house реклама<sup>29</sup></button><button class="tab" data-f="zola" aria-selected="false">Бьюти-бренд<sup>10</sup></button><button class="tab" data-f="design" aria-selected="false">Продукт и мода<sup>5</sup></button></div>
+  <p class="catsub" data-cat="ai" hidden>Полный цикл производства без съёмочной группы: промпты и референсы → генерация кадров → монтаж, звук и финальная доводка.</p><p class="catsub" data-cat="ugc" hidden>Монтаж с упором на удержание для креаторов и брендов: хук в первую секунду, ритм, пословные субтитры, SFX, форматы под каждую платформу.</p><p class="catsub" data-cat="inhouse" hidden>Моя текущая работа в штате. Короткие рекламные ролики для TikTok / Reels / Shorts: мемы и скетчи, хуки-списки, до/после, распаковки и демонстрации продукта — монтаж в CapCut с крупными динамичными субтитрами, саунд-дизайном и трендовым ритмом. Плюс ИИ-сцены с продуктом и брендовые интро для того же бренда.</p><p class="catsub" data-cat="zola" hidden>Серия рилсов на русском для мастера по ресницам, работающего с продуктами ZOLA для бровей и ресниц. Реальные кадры из салона, смонтированные в форматы процесса, ASMR, таймера и продукта, плюс ИИ-сцены с единой ведущей для масштабных хуков, останавливающих скролл.</p><p class="catsub" data-cat="design" hidden>Рекламные концепты и анимация продуктов: статичный дизайн, оживлённый движением.</p>
+  <div class="grid" id="grid">
+<button class="tile r wide" style="--d:0.00s" data-cat="ai" data-src="videos/b13.mp4" data-title="Газировка TREZZ — ИИ-реклама продукта (0:15)" data-desc="Полностью сгенерированная реклама напитка: банка с брызгами падает в воду, макро-кадр открывающегося кольца, банки прорываются сквозь красный, переход через разбитое стекло и финальный кадр с упаковкой. Без съёмок — кадры сгенерированы и смонтированы в такт музыке." data-tags="Higgsfield AI|Рекламный ролик продукта|Моушн"><span class="shot"><img src="thumbs/b13.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Газировка TREZZ — ИИ-реклама продукта (0:15)</span><span class="g">Higgsfield AI</span></span></button>
+<button class="tile r wide" style="--d:0.06s" data-cat="ai" data-src="videos/b14.mp4" data-title="Кофейный бренд — ИИ-реклама продукта (0:15)" data-desc="Ролик о премиальном кофе: макро крема, банка на бирюзовом фоне, капсульная кофемашина наливает кофе, летящие зёрна и финальный кадр с упаковкой. Сгенерированные сцены с одной и той же упаковкой во всех кадрах, монтаж со спидрампами." data-tags="Higgsfield AI|Рекламный ролик продукта|Макро"><span class="shot"><img src="thumbs/b14.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Кофейный бренд — ИИ-реклама продукта (0:15)</span><span class="g">Higgsfield AI</span></span></button>
+<button class="tile r wide" style="--d:0.12s" data-cat="ai" data-src="videos/b12.mp4" data-title="«Малыш» — ИИ-короткометражка с диалогами (0:41)" data-desc="Кинематографичная ИИ-драма: мужчина поздно возвращается домой со странным существом, а его партнёрша спрашивает, что случилось с их ребёнком. Единые персонажи во всех кадрах, диалоги с липсинком, приглушённый реалистичный свет и медленно нарастающая эмоция." data-tags="Генерация видео ИИ|Короткометражка|Диалоги с липсинком"><span class="shot"><img src="thumbs/b12.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«Малыш» — ИИ-короткометражка с диалогами (0:41)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r" style="--d:0.18s" data-cat="ai" data-src="videos/b15.mp4" data-title="Концепт-реклама кроссовок: ИИ-аватар + ИИ-локация (0:26)" data-desc="Спек-реклама беговых кроссовок: начинается с разбора — ИИ-аватар и ИИ-пейзаж, — затем всё собирается в одну последовательность: дорога с пальмами, прыжок, крупный план кроссовка, пробежка в парке и финальная заставка. Это не заказ бренда." data-tags="ИИ-аватар|Концепт-реклама|Композитинг"><span class="shot"><img src="thumbs/b15.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Концепт-реклама кроссовок: ИИ-аватар + ИИ-локация (0:26)</span><span class="g">ИИ-аватар</span></span></button>
+<button class="tile r" style="--d:0.24s" data-cat="ai" data-src="videos/b11.mp4" data-title="Коза против участника — ИИ-комедия (0:26)" data-desc="Комедийный клип в вирусном стиле: коза бодает участника на турнире по пощёчинам, судья вмешивается. Реалистичный свет арены и толпа, тайминг под панчлайн." data-tags="Higgsfield AI|Комедия|Вирусный формат"><span class="shot"><img src="thumbs/b11.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Коза против участника — ИИ-комедия (0:26)</span><span class="g">Higgsfield AI</span></span></button>
+<button class="tile r" style="--d:0.00s" data-cat="ai" data-src="videos/b7.mp4" data-title="Единый ИИ-персонаж: говорящая голова в машине с субтитрами (0:11)" data-desc="Говорящая голова в формате селфи в машине, с субтитрами на экране — классический UGC-формат, полностью сгенерированный ИИ. То же лицо и тот же голос, что и в других клипах с этим персонажем, естественная съёмка с рук и липсинк." data-tags="ИИ UGC|Единый персонаж|Липсинк"><span class="shot"><img src="thumbs/b7.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Единый ИИ-персонаж: говорящая голова в машине с субтитрами (0:11)</span><span class="g">ИИ UGC</span></span></button>
+<button class="tile r" style="--d:0.06s" data-cat="ai" data-src="videos/b4.mp4" data-title="Единый ИИ-персонаж: шопинг в бутике (0:06)" data-desc="Та же сгенерированная женщина в бутике одежды листает телефон с пакетом покупок в руках. Картинка как с камеры телефона и реалистичные детали магазина — выглядит как настоящий lifestyle-UGC." data-tags="ИИ UGC|Единый персонаж|Лайфстайл"><span class="shot"><img src="thumbs/b4.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Единый ИИ-персонаж: шопинг в бутике (0:06)</span><span class="g">ИИ UGC</span></span></button>
+<button class="tile r" style="--d:0.12s" data-cat="ai" data-src="videos/b5.mp4" data-title="Единый ИИ-персонаж: влог в гостиничном номере (0:15)" data-desc="Клип в формате влога с тем же персонажем в гостиничном номере, в гоночной футболке. Показывает одинаковую внешность в разных локациях, нарядах и при разном свете — основа для ИИ-аккаунта креатора или UGC о продукте." data-tags="ИИ UGC|Единый персонаж|Формат влога"><span class="shot"><img src="thumbs/b5.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Единый ИИ-персонаж: влог в гостиничном номере (0:15)</span><span class="g">ИИ UGC</span></span></button>
+<button class="tile r" style="--d:0.18s" data-cat="ai" data-src="videos/81.mp4" data-title="Полностью ИИ-сгенерированная реклама бренда (15 с)" data-desc="Пять кинематографичных кадров — крупный план продукта, дуэль, групповой кадр, появление логотипа — без съёмок, актёров и локаций. Писал промпты и референсы для света, движения камеры и боевых сцен; собрал с переходами, дымом, контровым светом и слоу-мо." data-tags="Higgsfield AI|Seedance 2.0|CapCut"><span class="shot"><img src="thumbs/81.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Полностью ИИ-сгенерированная реклама бренда (15 с)</span><span class="g">Higgsfield AI</span></span></button>
+<button class="tile r" style="--d:0.24s" data-cat="ai" data-src="videos/82.mp4" data-title="Анимированные брендовые интро / появление логотипа" data-desc="Пять вариантов интро для одной айдентики — молния, огонь, дым, искры, быстрый наезд камеры — с анимированным металлическим логотипом из мечей и щита и чистым брендовым финальным кадром. Сделано для заставок YouTube, Reels и Shorts." data-tags="Google Flow (Veo)|CapCut"><span class="shot"><img src="thumbs/82.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Анимированные брендовые интро / появление логотипа</span><span class="g">Google Flow (Veo)</span></span></button>
+<button class="tile r" style="--d:0.00s" data-cat="ai" data-src="videos/72.mp4" data-title="Реклама еды для американского бургерного бренда" data-desc="Клиентский проект. Фотореалистичные текстуры еды и макро-кадры, динамичные переходы, ритм под американский рекламный рынок. Промпт-инжиниринг ради визуальной точности, генерация в Kling и Runway, апскейл и проработка текстур в Magnific." data-tags="Kling|Runway|Magnific AI|ChatGPT · Gemini"><span class="shot"><img src="thumbs/72.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Реклама еды для американского бургерного бренда</span><span class="g">Kling</span></span></button>
+<button class="tile r" style="--d:0.06s" data-cat="ai" data-src="videos/s3.mp4" data-title="Концепт для ресниц: «команда на ваших ресницах»" data-desc="Макро глаза, где крошечная команда в костюмах работает над ресницами за бархатным канатом — визуальная метафора бьюти-услуги, останавливающая скролл." data-tags="Google Flow (Veo)|Концепт-реклама"><span class="shot"><img src="thumbs/s3.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Концепт для ресниц: «команда на ваших ресницах»</span><span class="g">Google Flow (Veo)</span></span></button>
+<button class="tile r" style="--d:0.12s" data-cat="ai" data-src="videos/s2.mp4" data-title="Концепт для ресниц: «стройка»" data-desc="Вторая вариация той же идеи — краны и рабочие в касках устанавливают одну-единственную ресничку." data-tags="Google Flow (Veo)|Концепт-реклама"><span class="shot"><img src="thumbs/s2.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Концепт для ресниц: «стройка»</span><span class="g">Google Flow (Veo)</span></span></button>
+<button class="tile r" style="--d:0.18s" data-cat="ai" data-src="videos/s39.mp4" data-title="Бьюти-студия — ИИ-промо" data-desc="Сгенерированная версия промо салона: кольцевая лампа, макро наращивания ресниц, клиентка с ручным зеркалом — тёплая, мягкая, премиальная подача." data-tags="Higgsfield AI|Локальный бизнес"><span class="shot"><img src="thumbs/s39.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Бьюти-студия — ИИ-промо</span><span class="g">Higgsfield AI</span></span></button>
+<button class="tile r" style="--d:0.24s" data-cat="ai" data-src="videos/s4.mp4" data-title="«Останови время» — офисная концепт-реклама" data-desc="Бумаги разлетаются по офису, звонит телефон, на стол падает стикер — 15-секундный концепт для продукта про продуктивность и время." data-tags="Google Flow (Veo)|Концепт-реклама"><span class="shot"><img src="thumbs/s4.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«Останови время» — офисная концепт-реклама</span><span class="g">Google Flow (Veo)</span></span></button>
+<button class="tile r wide" style="--d:0.00s" data-cat="ai" data-src="videos/78.mp4" data-title="ИИ-реклама роскошных часов (15 с)" data-desc="Золотые частицы закручиваются в галактику и сгущаются в хронограф со скелетонным циферблатом; затем макро-тур по механизму, винтам безеля и каучуковому ремешку, финал — чистый главный кадр. Полностью сгенерировано, без предметной съёмки: промптами задавал свет, движение камеры и детали материалов, затем монтировал, менял скорость и делал цветокоррекцию в CapCut." data-tags="Генерация видео ИИ|Реклама продукта|CapCut"><span class="shot"><img src="thumbs/78.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">ИИ-реклама роскошных часов (15 с)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r wide" style="--d:0.06s" data-cat="ai" data-src="videos/57.mp4" data-title="Древняя война — кинематографичная сцена" data-desc="Короткий фрагмент в духе фильма: конные сражения, лучники, атмосфера масштабной битвы. Визуал сгенерирован ИИ, плюс монтаж, ритм, цветокоррекция и финальная доводка." data-tags="Runway|Gemini|Цветокоррекция"><span class="shot"><img src="thumbs/57.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Древняя война — кинематографичная сцена</span><span class="g">Runway</span></span></button>
+<button class="tile r wide" style="--d:0.12s" data-cat="ai" data-src="videos/n8.mp4" data-title="Prince Caffe — ИИ-концепт рекламного ролика (0:27)" data-desc="Мой собственный концепт ролика (спек-реклама) для кофейного бренда Prince Caffe — сделан мной от начала до конца, бренд его не заказывал. Мужчина заходит в кафе на переговоры; официант всё носит красные чашки, пока между двумя мужчинами не вырастает пирамида, кофе проливается, а контракт подписывают — финал на логотипе PRINCE CAFFE. Я сгенерировал каждую сцену с едиными актёрами и локацией, добавил брендовые стикеры и сделал монтаж, тайминг и звук в CapCut." data-tags="Генерация видео ИИ|Концепт-ролик|CapCut"><span class="shot"><img src="thumbs/n8.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Prince Caffe — ИИ-концепт рекламного ролика (0:27)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r wide" style="--d:0.18s" data-cat="ai" data-src="videos/n15.mp4" data-title="3D-анимационная короткометражка: мальчик и щенок (1:10)" data-desc="История в стиле Pixar в семи сценах: ТВ в гостиной, мама у двери, крыльцо, прогулка, фрисби в парке, осенние листья. Главная сложность — консистентность: один и тот же мальчик (кепка, худи), один и тот же щенок (бандана) и одинаковый свет во всех сгенерированных кадрах; затем сцены собраны в историю с музыкой и фоновым звуком в CapCut." data-tags="Генерация видео ИИ|3D-анимация|Консистентность персонажей|CapCut"><span class="shot"><img src="thumbs/n15.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">3D-анимационная короткометражка: мальчик и щенок (1:10)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r" style="--d:0.24s" data-cat="ai" data-src="videos/n12.mp4" data-title="Концепт музыкального клипа в стиле Западного побережья (0:30)" data-desc="Личный ИИ-концепт, не заказ. Стилизованный 3D-мультяшный вид: лоурайдер на закате, кубики на зеркале, хромированные детали, рэпер в синей рубашке и три девушки на тротуаре — восемь кадров с единым персонажем и цветовой палитрой, смонтированы под бит в CapCut." data-tags="Генерация видео ИИ|Концепт клипа|Монтаж под бит|CapCut"><span class="shot"><img src="thumbs/n12.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Концепт музыкального клипа в стиле Западного побережья (0:30)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r wide" style="--d:0.00s" data-cat="ai" data-src="videos/n7.mp4" data-title="«Русалка» — ИИ-кинотрейлер (1:11)" data-desc="Сюжетный трейлер, сгенерированный кадр за кадром: подводный мир, пляжные сцены, крупные планы персонажей; смонтирован с музыкой и ритмом, как тизер фильма." data-tags="Higgsfield / Veo|Кинотрейлер|CapCut"><span class="shot"><img src="thumbs/n7.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«Русалка» — ИИ-кинотрейлер (1:11)</span><span class="g">Higgsfield / Veo</span></span></button>
+<button class="tile r wide" style="--d:0.06s" data-cat="ai" data-src="videos/n16.mp4" data-title="«YNKM» — ИИ-трейлер (0:54)" data-desc="Трейлер в стиле игрового кино: новостной эфир, семья бежит по городской улице, самурай, ангар с самолётами, сценическое выступление, подросток-герой в спальне и погоня по заводу. Сгенерирован по сценам с единым главным героем, затем смонтирован в трейлерном ритме: нарастание, жёсткие склейки на ударах, титульные моменты и саунд-дизайн в CapCut." data-tags="Генерация видео ИИ|Кинотрейлер|Саунд-дизайн|CapCut"><span class="shot"><img src="thumbs/n16.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«YNKM» — ИИ-трейлер (0:54)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r wide" style="--d:0.12s" data-cat="ai" data-src="videos/n9.mp4" data-title="«Paititi» — тизер игры (0:59)" data-desc="Тизер для игрового Discord-сообщества: аэросъёмка джунглевой реки на рассвете, лианы, поросшее мхом каменное лицо, свет факела на резных стенах, золотая маска в земле, исследователи у костра и гравированная плита, финал — титульный кадр PAITITI. Медленный кинематографичный ритм, согласованные по цвету кадры, атмосфера и музыка в CapCut." data-tags="Генерация видео ИИ|Тизер|Титульный кадр|CapCut"><span class="shot"><img src="thumbs/n9.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«Paititi» — тизер игры (0:59)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r wide" style="--d:0.18s" data-cat="ai" data-src="videos/n24.mp4" data-title="«The Last Light of Aurel» — фэнтези-трейлер (0:28)" data-desc="Короткий фэнтези-тизер: свеча во тьме, героиня в эльфийских доспехах в кабине дирижабля, экстремальный крупный план глаза, схватка в кабине, каньон из костей, качающийся красный амулет, затем название. Единый персонаж и костюм во всех кадрах; трейлерный монтаж с титульной заставкой, оформленной в CapCut." data-tags="Генерация видео ИИ|Кинотрейлер|Дизайн титров|CapCut"><span class="shot"><img src="thumbs/n24.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«The Last Light of Aurel» — фэнтези-трейлер (0:28)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r wide" style="--d:0.24s" data-cat="ai" data-src="videos/n17.mp4" data-title="Кот в солнечных очках — реклама в стиле iPod" data-desc="Красочная поп-пародия на рекламу: кот в наушниках на однотонных фонах, танцевальные силуэты, ритм рекламы продукта." data-tags="Higgsfield|Рекламный концепт"><span class="shot"><img src="thumbs/n17.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Кот в солнечных очках — реклама в стиле iPod</span><span class="g">Higgsfield</span></span></button>
+<button class="tile r wide" style="--d:0.00s" data-cat="ai" data-src="videos/n19.mp4" data-title="Бобёр в шубе — комедийная реклама" data-desc="Абсурдный комедийный ролик: бобёр в баре, у бассейна, в особняке — формат для соцсетей, где юмор на первом месте." data-tags="Higgsfield|Комедийная реклама"><span class="shot"><img src="thumbs/n19.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Бобёр в шубе — комедийная реклама</span><span class="g">Higgsfield</span></span></button>
+<button class="tile r wide" style="--d:0.06s" data-cat="ai" data-src="videos/n10.mp4" data-title="Полёт на мотоцикле над Рио — комедийный клип (0:24)" data-desc="Мопс в зелёных солнечных очках едет пассажиром сзади с девушкой в белом костюме: пляж, туннель, трамплин на шоссе, прыжок над Копакабаной и мягкое приземление. Экшен-комедия, готовая стать мемом, сгенерирована кадр за кадром; спидрампы, свуши и музыка в такт прыжку — в CapCut." data-tags="Генерация видео ИИ|Комедия|Спидрамп|CapCut"><span class="shot"><img src="thumbs/n10.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Полёт на мотоцикле над Рио — комедийный клип (0:24)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r" style="--d:0.12s" data-cat="ai" data-src="videos/n13.mp4" data-title="Свадебное кольцо — реклама для ювелира (0:10)" data-desc="Вертикальная реклама для ювелира: невеста в кружеве и фате, мягкий свет из окна, кольцо показано тремя способами — макро на руке, рука у лица, рука, поднятая к свету, — и финал на её улыбке. Сгенерировано без съёмки, затем сведено по цвету и выстроено по ритму для Reels в CapCut." data-tags="Генерация видео ИИ|Реклама продукта|Вертикальный формат|CapCut"><span class="shot"><img src="thumbs/n13.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Свадебное кольцо — реклама для ювелира (0:10)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r" style="--d:0.18s" data-cat="ai" data-src="videos/n2.mp4" data-title="ИИ UGC-реклама: тональный крем (0:20)" data-desc="UGC-реклама косметики со сгенерированной ведущей: крупный план глаза, флакон в руке, нанесение спонжем, солнечное окно позади. Сделана так, чтобы выглядеть как селфи-видео на телефон — естественная кожа, съёмка с рук, никакого студийного глянца, — и восприниматься как нативный контент TikTok, а не как реклама." data-tags="ИИ UGC|Бьюти|TikTok|CapCut"><span class="shot"><img src="thumbs/n2.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">ИИ UGC-реклама: тональный крем (0:20)</span><span class="g">ИИ UGC</span></span></button>
+<button class="tile r" style="--d:0.24s" data-cat="ai" data-src="videos/n26.mp4" data-title="Реклама для TikTok Shop — книга о теннисе (0:12)" data-desc="Вертикальный креатив для TikTok Shop для книги MATCH POINT: девушка в теннисной форме находит её на складской полке, затем читает у корта рядом с напульсниками и бутылкой воды; на фоне игроки на корте. Постоянная подпись «Comment ‘Point’ for the link» как CTA. Сгенерированные сцены, плюс субтитры и ритм в CapCut." data-tags="ИИ UGC|TikTok Shop|CTA-подпись|CapCut"><span class="shot"><img src="thumbs/n26.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Реклама для TikTok Shop — книга о теннисе (0:12)</span><span class="g">ИИ UGC</span></span></button>
+<button class="tile r wide" style="--d:0.00s" data-cat="ai" data-src="videos/n20.mp4" data-title="«Signal Crimson» — появление логотипа (0:15)" data-desc="Металлические буквы собираются на каменном постаменте, сверху встаёт красная эмблема, внизу загорается CRIMSON, а с двух сторон выходят два персонажа в стиле аниме. Сгенерировано в Higgsfield как интро для игры или бренда; искры, свечение и звук — в CapCut." data-tags="Higgsfield|Появление логотипа|Игровое интро|CapCut"><span class="shot"><img src="thumbs/n20.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«Signal Crimson» — появление логотипа (0:15)</span><span class="g">Higgsfield</span></span></button>
+<button class="tile r" style="--d:0.06s" data-cat="ai" data-src="videos/n18.mp4" data-title="Певица у микрофона — музыкальный клип (0:21)" data-desc="Концертные кадры сгенерированной певицы в зелёном топе с пайетками на оливковом фоне, студийный микрофон в кадре: три ракурса, движения рук под фразу, липсинк под вокал. Сгенерировано в Higgsfield, смонтировано на бит в CapCut." data-tags="Higgsfield|Музыкальный клип|Липсинк|CapCut"><span class="shot"><img src="thumbs/n18.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Певица у микрофона — музыкальный клип (0:21)</span><span class="g">Higgsfield</span></span></button>
+<button class="tile r wide" style="--d:0.12s" data-cat="ai" data-src="videos/n25.mp4" data-title="Вокзал — эмоциональная короткометражка (0:15)" data-desc="Девушка ждёт на залитой солнцем платформе, смотрит в телефон, двери поезда открываются, подруга выходит с чемоданом — и они обнимаются. Тест на сторителлинг: может ли 15 секунд сгенерированного видео передать эмоцию? Слоу-мо на объятиях, звуки вокзала и музыка в CapCut." data-tags="Генерация видео ИИ|Сторителлинг|Слоу-мо|CapCut"><span class="shot"><img src="thumbs/n25.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Вокзал — эмоциональная короткометражка (0:15)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r wide" style="--d:0.18s" data-cat="ai" data-src="videos/n11.mp4" data-title="«Sketchy Cinema» — промо канала (0:20)" data-desc="Промо видеопродакшен-бренда: ведущий идёт из студии с хромакеем в нью-йоркский офис, мимо пролетает дрон, за ним появляется монтажная, затем светящийся мозг, парящие экраны и логотип. Один и тот же ведущий во всех сгенерированных сценах; переходы, вставки с экранами и анимация логотипа — в CapCut." data-tags="Генерация видео ИИ|Промо|Единый ведущий|CapCut"><span class="shot"><img src="thumbs/n11.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«Sketchy Cinema» — промо канала (0:20)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r wide" style="--d:0.24s" data-cat="ai" data-src="videos/n21.mp4" data-title="Золотое ограбление — комедийная короткометражка (0:30)" data-desc="Мужчины в костюмах, особняк, золотой спортивный костюм, крошечный гангстер у двери, бутылка, выпитая залпом, и комната, полная летающих денег. Абсурдная 30-секундная комедия, сгенерированная в Higgsfield с единым составом героев и быстро смонтированная к панчлайну в CapCut." data-tags="Higgsfield|Комедия|CapCut"><span class="shot"><img src="thumbs/n21.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Золотое ограбление — комедийная короткометражка (0:30)</span><span class="g">Higgsfield</span></span></button>
+<button class="tile r" style="--d:0.00s" data-cat="ai" data-src="videos/a1.mp4" data-title="Деревянный дом: прогулка по интерьеру (0:12)" data-desc="Спокойный ИИ-тур по деревянному дому: спальня, столовая, гостиная с растениями, затем то же пространство ночью со светящимся телевизором. Единая архитектура и свет, меняющийся от дня к вечеру, темп как у рилса для недвижимости или интерьерного бренда." data-tags="Генерация видео ИИ|Интерьер|CapCut"><span class="shot"><img src="thumbs/a1.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Деревянный дом: прогулка по интерьеру (0:12)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r wide" style="--d:0.06s" data-cat="ai" data-src="videos/a2.mp4" data-title="Дуэт с логотипами вместо голов: персонажи бренда (0:24)" data-desc="Два персонажа с логотипами S и FX LAB вместо голов разговаривают и жестикулируют в студии. Знаки бренда становятся актёрами, с естественной пластикой и одной и той же сценой во всех кадрах." data-tags="Генерация видео ИИ|Персонажи бренда|16:9"><span class="shot"><img src="thumbs/a2.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Дуэт с логотипами вместо голов: персонажи бренда (0:24)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r wide" style="--d:0.12s" data-cat="ai" data-src="videos/a3.mp4" data-title="Та же сцена с дуэтом, но с живыми актёрами (0:24)" data-desc="Тот же диалог, перегенерированный с двумя персонажами-людьми, с той же мизансценой и жестами, что и в версии с логотипами. Одна идея в двух вариантах — брендовом или с людьми." data-tags="Генерация видео ИИ|Замена персонажей|16:9"><span class="shot"><img src="thumbs/a3.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Та же сцена с дуэтом, но с живыми актёрами (0:24)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r" style="--d:0.18s" data-cat="ai" data-src="videos/a4.mp4" data-title="«Менталист»: кинематографичная атмосферная зарисовка (0:16)" data-desc="Чёрно-белый ролик с молодым человеком в костюме: кожаный диван, крупные планы, охранник у двери. Киношный свет и один и тот же герой во всех кадрах." data-tags="Генерация видео ИИ|Кинематографичность|Ч/Б"><span class="shot"><img src="thumbs/a4.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«Менталист»: кинематографичная атмосферная зарисовка (0:16)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r" style="--d:0.24s" data-cat="ai" data-src="videos/a5.mp4" data-title="Прогулка модели по Парижу (0:15)" data-desc="Вертикальный модный клип: модель в сером пальто с бежевой сумкой идёт вдоль парижского фасада и останавливается для крупного плана. Собран как готовый к публикации Reel для fashion-бренда." data-tags="Генерация видео ИИ|Мода|Вертикальный формат"><span class="shot"><img src="thumbs/a5.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Прогулка модели по Парижу (0:15)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r wide" style="--d:0.00s" data-cat="ai" data-src="videos/a6.mp4" data-title="Танец в дверях: мем-формат (0:13)" data-desc="Мужчина в костюме выскакивает из дверей магазина и пускается в вызывающий танец, а за ним выходит случайный прохожий. Мемный тайминг, рассчитанный на репосты." data-tags="Генерация видео ИИ|Мем|Комедия"><span class="shot"><img src="thumbs/a6.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Танец в дверях: мем-формат (0:13)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r wide" style="--d:0.06s" data-cat="ai" data-src="videos/a7.mp4" data-title="Танец в наушниках по городу (0:13)" data-desc="Парень в наушниках едет в метро, пробирается сквозь толпу и в итоге танцует по улице и по лестнице. Один и тот же персонаж в нескольких городских локациях, монтаж под бит." data-tags="Генерация видео ИИ|Монтаж под бит|Консистентность персонажа"><span class="shot"><img src="thumbs/a7.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Танец в наушниках по городу (0:13)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r" style="--d:0.12s" data-cat="ugc" data-src="videos/n6.mp4" data-title="Реклама в формате «говорящая голова» с субтитрами по ключевым словам (1:09)" data-desc="Питч в стиле основателя, смонтированный в рилс с упором на удержание: джамп-каты, ключевые слова в субтитрах, всплывающие в такт («YOU'RE TIRED OF…», «FORTUNE 500»), вставки B-roll. Сдан в двух версиях — динамичной с дополнительным движением и чистой, только с субтитрами." data-tags="CapCut|Говорящая голова|Субтитры по ключевым словам"><span class="shot"><img src="thumbs/n6.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Реклама в формате «говорящая голова» с субтитрами по ключевым словам (1:09)</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.18s" data-cat="ugc" data-src="videos/n3.mp4" data-title="Промо для американского фитнес-тренера (4:22)" data-desc="Длинное промо для соцсетей в формате «говорящая голова»: ритм построен вокруг подачи тренера, пословные субтитры, акценты, усиливающие эмоцию и доверие, очистка материала с помощью ИИ." data-tags="CapCut|Говорящая голова|Личный бренд"><span class="shot"><img src="thumbs/n3.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Промо для американского фитнес-тренера (4:22)</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.24s" data-cat="ugc" data-src="videos/n5.mp4" data-title="VSL-реклама прямого отклика (1:56)" data-desc="Экспертная реклама в сфере здоровья для клиента из США (Meta): хук, проблема, доказательства, оффер. Пословные субтитры, утверждения на экране, медицинский B-roll и анимированные вставки, синхронизированные со сценарием." data-tags="CapCut|VSL|Прямой отклик"><span class="shot"><img src="thumbs/n5.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">VSL-реклама прямого отклика (1:56)</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.00s" data-cat="ugc" data-src="videos/n22.mp4" data-title="Клип из подкаста с субтитрами по ключевым словам" data-desc="Момент из подкаста, нарезанный для Shorts/Reels: наезд на говорящего, крупные субтитры по одному слову (CHEAP · APPETITE · PROTEIN), чистый звук." data-tags="CapCut|Клип из подкаста|Субтитры"><span class="shot"><img src="thumbs/n22.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Клип из подкаста с субтитрами по ключевым словам</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.06s" data-cat="ugc" data-src="videos/n1.mp4" data-title="Рилс на чешском: «1% лучше каждый день»" data-desc="Говорящая голова + вставки со слайдами для чешского креатора: анимированные субтитры на чешском, подсвеченные ключевые слова, графики, смонтированные в такт." data-tags="CapCut|Субтитры (CZ)|Образовательный контент"><span class="shot"><img src="thumbs/n1.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Рилс на чешском: «1% лучше каждый день»</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.12s" data-cat="ugc" data-src="videos/n23.mp4" data-title="Чешский TikTok: говорящая голова + кадры из фильмов" data-desc="Сторителлинг-рилс для чешского клиента: спикер вперемешку с отсылками к фильмам, чешские субтитры с цветной подсветкой слов, быстрый темп для TikTok." data-tags="CapCut|TikTok|Субтитры (CZ)"><span class="shot"><img src="thumbs/n23.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Чешский TikTok: говорящая голова + кадры из фильмов</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.18s" data-cat="ugc" data-src="videos/79.mp4" data-title="Комедийная UGC-реклама" data-desc="Две рекламы продукта в формате скетча: хук в первые секунды, крупные динамичные субтитры на панчлайнах, зумы и переходы для удержания, синхронные SFX и музыка, естественный UGC-вид без глянцевого «рекламного» ощущения." data-tags="CapCut|UGC|TikTok / Reels / Shorts"><span class="shot"><img src="thumbs/79.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Комедийная UGC-реклама</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.24s" data-cat="ugc" data-src="videos/s24.mp4" data-title="Магазин для крикета — реклама перчаток бэтсмена" data-desc="Подпись «The unexpected drop is no match for this grip»: трендовый клип → перчатки на питче, URL магазина остаётся на экране." data-tags="CapCut|Адаптация тренда|E-commerce"><span class="shot"><img src="thumbs/s24.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Магазин для крикета — реклама перчаток бэтсмена</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.00s" data-cat="ugc" data-src="videos/s17.mp4" data-title="Промо студии наращивания ресниц (RU)" data-desc="Промо бьюти-студии в формате «говорящая голова»: мастер за работой, макро-кадры наращивания ресниц, анимированные субтитры на русском." data-tags="CapCut|Говорящая голова|Локальный бизнес"><span class="shot"><img src="thumbs/s17.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Промо студии наращивания ресниц (RU)</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.06s" data-cat="inhouse" data-src="videos/s5.mp4" data-title="«Things I can't live without» → показ шлема" data-desc="Хук-список (воздух, вода…), который заканчивается продуктом. Пословные субтитры, подсвеченное название продукта, зум на раскрытии." data-tags="CapCut|UGC|Хук-список"><span class="shot"><img src="thumbs/s5.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«Things I can't live without» → показ шлема</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.12s" data-cat="inhouse" data-src="videos/s6.mp4" data-title="«My sword: flexible. My opponent — not so much»: шутка" data-desc="Шутка из двух ударов, построенная на особенности продукта. Точный тайминг субтитров, склейка на панчлайне, натуральный UGC-вид." data-tags="CapCut|Юмор|Особенность продукта"><span class="shot"><img src="thumbs/s6.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«My sword: flexible. My opponent — not so much»: шутка</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.18s" data-cat="inhouse" data-src="videos/s7.mp4" data-title="«Me explaining to my girlfriend why I need another sword»: мем" data-desc="Узнаваемый мем-формат с отложенным появлением подписи; продаёт экипировка на заднем плане." data-tags="CapCut|Мем-формат"><span class="shot"><img src="thumbs/s7.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«Me explaining to my girlfriend why I need another sword»: мем</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.24s" data-cat="inhouse" data-src="videos/s13.mp4" data-title="«Me after first sparring session / after the 10th»: до / после" data-desc="Склейка «до/после» с резкой сменой сцены и соответствующими субтитрами — формат, который хорошо работает в TikTok." data-tags="CapCut|До / после"><span class="shot"><img src="thumbs/s13.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«Me after first sparring session / after the 10th»: до / после</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.00s" data-cat="inhouse" data-src="videos/s16.mp4" data-title="«When she asked me to bring protection»: хук-каламбур" data-desc="Хук-каламбур → показ щита с крупным планом принта." data-tags="CapCut|Хук-каламбур|Показ продукта"><span class="shot"><img src="thumbs/s16.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«When she asked me to bring protection»: хук-каламбур</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.06s" data-cat="inhouse" data-src="videos/s25.mp4" data-title="«Nobody… / Me at 7am on Saturday»: мем" data-desc="Классический мем «nobody:», адаптированный под бренд — полная экипировка на диване, минимум склеек, шутку несёт тайминг субтитров." data-tags="CapCut|Мем-формат"><span class="shot"><img src="thumbs/s25.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«Nobody… / Me at 7am on Saturday»: мем</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.12s" data-cat="inhouse" data-src="videos/s14.mp4" data-title="«When the SPARTA package finally arrives»: посылка пришла" data-desc="Разгон со спидрампом перед спаррингом во дворе у мальчика с манекеном для ударов; игривые субтитры и финальная заставка с панчлайном." data-tags="CapCut|UGC|Спидрамп"><span class="shot"><img src="thumbs/s14.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«When the SPARTA package finally arrives»: посылка пришла</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.18s" data-cat="inhouse" data-src="videos/s8.mp4" data-title="«Surprising my boyfriend 1750 miles away»: сюрприз парню" data-desc="UGC-история с подарком: раскрытие в коридоре → детали куртки → подсвеченное название продукта. Сначала эмоция, потом продукт." data-tags="CapCut|UGC-история"><span class="shot"><img src="thumbs/s8.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«Surprising my boyfriend 1750 miles away»: сюрприз парню</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.24s" data-cat="inhouse" data-src="videos/s23.mp4" data-title="Прыжок с парашютом с набором меча и щита" data-desc="«Never trained like this before…» — трюковые кадры, смонтированные в рекламу продукта с титульной заставкой, названием продукта и CTA с ценой («$138, in stock now»)." data-tags="CapCut|Реклама продукта|CTA с ценой"><span class="shot"><img src="thumbs/s23.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Прыжок с парашютом с набором меча и щита</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.00s" data-cat="inhouse" data-src="videos/s15.mp4" data-title="«The unexpected drop» — адаптация тренда" data-desc="Вирусный звук/мем, переработанный под бренд: клип-реакция → крупные планы полной защитной экипировки для спарринга в ритме бита." data-tags="CapCut|Тренд|Монтаж под бит"><span class="shot"><img src="thumbs/s15.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«The unexpected drop» — адаптация тренда</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.06s" data-cat="inhouse" data-src="videos/s11.mp4" data-title="Тренировочный монтаж → показ шлема" data-desc="Кадры из бэттинг-клетки и скриншот комментария превращаются в показ шлема с драконом." data-tags="CapCut|Монтаж"><span class="shot"><img src="thumbs/s11.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Тренировочный монтаж → показ шлема</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.12s" data-cat="inhouse" data-src="videos/s27.mp4" data-title="«SOFT WARRIOR gear. Built for real training»: монтаж" data-desc="Быстрый монтаж спарринга в зале с постоянным слоганом бренда; склейки на ударах." data-tags="CapCut|Монтаж|Слоган бренда"><span class="shot"><img src="thumbs/s27.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«SOFT WARRIOR gear. Built for real training»: монтаж</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.18s" data-cat="inhouse" data-src="videos/s26.mp4" data-title="Обзор джерси в формате «говорящая голова» (2 мин)" data-desc="Лонгформ для соцсетей: джамп-каты, субтитры по ключевым словам (HERE / AMAZING / KNOW), всплывающие в такт, крупные планы продукта там, где он говорит о деталях." data-tags="CapCut|Говорящая голова|Субтитры по ключевым словам"><span class="shot"><img src="thumbs/s26.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Обзор джерси в формате «говорящая голова» (2 мин)</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.24s" data-cat="inhouse" data-src="videos/s18.mp4" data-title="Витрина экипировки: шлем, жилет, щиты" data-desc="Чистое видео продукта для магазина: медленное движение камеры по шлему, жилету с принтом и щитам с логотипом-орлом." data-tags="CapCut|Видео о продукте"><span class="shot"><img src="thumbs/s18.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Витрина экипировки: шлем, жилет, щиты</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.00s" data-cat="inhouse" data-src="videos/s29.mp4" data-title="ИИ-кинопромо бренда" data-desc="Раздевалка → портрет в шлеме → воин в клетке из света → силуэты отряда в дыму. Полностью сгенерировано, смонтировано как тизер бренда." data-tags="Higgsfield AI|CapCut|Тизер бренда"><span class="shot"><img src="thumbs/s29.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">ИИ-кинопромо бренда</span><span class="g">Higgsfield AI</span></span></button>
+<button class="tile r" style="--d:0.06s" data-cat="inhouse" data-src="videos/s41.mp4" data-title="ИИ-сцена со стеной экипировки" data-desc="Щиты, маска и куртка в тёмной мастерской с единственным верхним источником света — сгенерированная предметная съёмка в движении." data-tags="Higgsfield AI|Сцена с продуктом"><span class="shot"><img src="thumbs/s41.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">ИИ-сцена со стеной экипировки</span><span class="g">Higgsfield AI</span></span></button>
+<button class="tile r" style="--d:0.12s" data-cat="inhouse" data-src="videos/s42.mp4" data-title="ИИ-распаковка шлема (0:15)" data-desc="Сгенерированный кадр распаковки для магазина: чёрная коробка на ореховом столе, папиросная бумага, руки достают шлем с узорной клеткой, затем чистый финальный кадр на столе. Видео о продукте без стоковых кадров, с единым светом, ретайм в CapCut." data-tags="Генерация видео ИИ|Распаковка|Видео о продукте|CapCut"><span class="shot"><img src="thumbs/s42.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">ИИ-распаковка шлема (0:15)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r" style="--d:0.18s" data-cat="inhouse" data-src="videos/s40.mp4" data-title="Макро вышивки логотипа" data-desc="Макро швейной машины, которая в реальном времени вышивает герб бренда, — 5-секундный брендовый стинг." data-tags="Higgsfield AI|Брендовый стинг"><span class="shot"><img src="thumbs/s40.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Макро вышивки логотипа</span><span class="g">Higgsfield AI</span></span></button>
+<button class="tile r" style="--d:0.24s" data-cat="inhouse" data-src="videos/s30.mp4" data-title="Неоновое появление логотипа" data-desc="Светящийся удар меча → герб с молнией. Один из нескольких вариантов интро, сданных клиенту (см. также «Анимированные брендовые интро» ниже)." data-tags="Google Flow (Veo)|CapCut|Появление логотипа"><span class="shot"><img src="thumbs/s30.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Неоновое появление логотипа</span><span class="g">Google Flow (Veo)</span></span></button>
+<button class="tile r" style="--d:0.00s" data-cat="inhouse" data-src="videos/w1.mp4" data-title="«Me buying one SPARTA helmet / my whole club a week later»: мем" data-desc="ИИ-мем: армия котов в шлемах и красных туниках марширует со щитами. Шутку несёт подпись, а продукт надет на каждую голову." data-tags="ИИ-мем|Higgsfield|CapCut"><span class="shot"><img src="thumbs/w1.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«Me buying one SPARTA helmet / my whole club a week later»: мем</span><span class="g">ИИ-мем</span></span></button>
+<button class="tile r" style="--d:0.06s" data-cat="inhouse" data-src="videos/w2.mp4" data-title="Полный тренировочный комплект: кинетический текст + озвучка (0:12)" data-desc="Реклама полного комплекта: шлем со стальной решёткой, щит heater, показ цены и «any colour you want». Крупные кинетические субтитры в такт озвучке." data-tags="CapCut|Кинетическая типографика|Озвучка"><span class="shot"><img src="thumbs/w2.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Полный тренировочный комплект: кинетический текст + озвучка (0:12)</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.12s" data-cat="inhouse" data-src="videos/w3.mp4" data-title="Полный тренировочный комплект: чистая редакционная вёрстка (0:21)" data-desc="Тот же комплект в белой журнальной вёрстке: заголовок, кадр продукта, цены $90 / $55, варианты цветов. Более спокойная версия для A/B-теста против кинетической нарезки." data-tags="CapCut|Реклама продукта|A/B-вариант"><span class="shot"><img src="thumbs/w3.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Полный тренировочный комплект: чистая редакционная вёрстка (0:21)</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.18s" data-cat="inhouse" data-src="videos/w4.mp4" data-title="Тренировочная куртка PRO: кинетический текст + озвучка (0:12)" data-desc="Реклама куртки по характеристикам: карманы для жёстких вставок, точки крепления, кастомная нашивка, цена $350. Быстрые склейки на каждой характеристике под озвучку." data-tags="CapCut|Кинетическая типографика|Озвучка"><span class="shot"><img src="thumbs/w4.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Тренировочная куртка PRO: кинетический текст + озвучка (0:12)</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.24s" data-cat="inhouse" data-src="videos/w5.mp4" data-title="Тренировочная куртка PRO: редакционная вёрстка (0:15)" data-desc="Версия рекламы куртки в белой вёрстке: кожаные манжеты, точки крепления, «your logo». Тот же посыл, другая визуальная система для тестов." data-tags="CapCut|Реклама продукта|A/B-вариант"><span class="shot"><img src="thumbs/w5.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Тренировочная куртка PRO: редакционная вёрстка (0:15)</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.00s" data-cat="inhouse" data-src="videos/w6.mp4" data-title="Взрывающийся комплект: разбор продукта с графикой (0:08)" data-desc="Полный комплект доспехов разлетается на части (шлем, куртка, перчатки, щит, меч) с подписями и ценами на каждом предмете, затем собирается обратно." data-tags="ИИ-анимация продукта|Моушн-графика|CapCut"><span class="shot"><img src="thumbs/w6.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Взрывающийся комплект: разбор продукта с графикой (0:08)</span><span class="g">ИИ-анимация продукта</span></span></button>
+<button class="tile r" style="--d:0.06s" data-cat="inhouse" data-src="videos/w7.mp4" data-title="Хват новичка и хват через 3 года" data-desc="Хук «до/после» о том, как держать тренировочный меч в день 1 и в день 1095, финал — на фирменной фразе «Stay tough»." data-tags="CapCut|До / после|Хук"><span class="shot"><img src="thumbs/w7.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Хват новичка и хват через 3 года</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.12s" data-cat="inhouse" data-src="videos/w8.mp4" data-title="«POV: your opponent is choosing»: мем с собакой" data-desc="Собака выбирает оружие со стойки — мем-POV про спарринг-партнёров. Нативный юмор TikTok, продукт на заднем плане." data-tags="Мем|UGC|CapCut"><span class="shot"><img src="thumbs/w8.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«POV: your opponent is choosing»: мем с собакой</span><span class="g">Мем</span></span></button>
+<button class="tile r" style="--d:0.18s" data-cat="inhouse" data-src="videos/w9.mp4" data-title="Покраска гигантского шлема" data-desc="Мужчина красит гигантский шлем в цвета бренда в студии: сюрреалистичный визуальный хук для линейки продуктов." data-tags="Генерация видео ИИ|Хук|CapCut"><span class="shot"><img src="thumbs/w9.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Покраска гигантского шлема</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r" style="--d:0.24s" data-cat="inhouse" data-src="videos/w10.mp4" data-title="«Is it too late to add gold?»: мем про кастомный заказ" data-desc="Скетч «звоню насчёт своего кастомного заказа» поверх золотисто-фиолетового кастомного комплекта — мем о клиентах, которые передумывают." data-tags="Мем|Скетч|CapCut"><span class="shot"><img src="thumbs/w10.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«Is it too late to add gold?»: мем про кастомный заказ</span><span class="g">Мем</span></span></button>
+<button class="tile r" style="--d:0.00s" data-cat="zola" data-src="videos/z1.mp4" data-title="Ламинирование ресниц по шагам, до / после (0:27)" data-desc="Реальные кадры из салона, собранные в рилс-процесс: кадр «до», пэды, каждый состав, фиксация и уход, затем кадр «после». Пронумерованные шаги в виде текста на экране." data-tags="CapCut|Бьюти|Рилс-процесс"><span class="shot"><img src="thumbs/z1.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Ламинирование ресниц по шагам, до / после (0:27)</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.06s" data-cat="zola" data-src="videos/z2.mp4" data-title="«Ритуал»: ASMR-монтаж (0:24)" data-desc="Медленный, тактильный монтаж ламинирования: смешивание состава вручную, точные движения, готовый результат. Ритм строится на звуке, мягкие субтитры." data-tags="CapCut|ASMR|Бьюти"><span class="shot"><img src="thumbs/z2.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«Ритуал»: ASMR-монтаж (0:24)</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.12s" data-cat="zola" data-src="videos/z3.mp4" data-title="ZOLA для магазина: монтаж с фокусом на продукте (0:26)" data-desc="Та же услуга, рассказанная через продукты (Protein Reconstruction System, Aqua Fluid), с финальной заставкой для каталога магазина красоты." data-tags="CapCut|Реклама продукта|Ритейл"><span class="shot"><img src="thumbs/z3.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">ZOLA для магазина: монтаж с фокусом на продукте (0:26)</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.18s" data-cat="zola" data-src="videos/z4.mp4" data-title="«Сколько это занимает?»: формат с таймером (0:24)" data-desc="Хук-вопрос, затем таймер на экране проходит через каждый этап до «2 часов» и призыв записаться." data-tags="CapCut|Хук с таймером|CTA"><span class="shot"><img src="thumbs/z4.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«Сколько это занимает?»: формат с таймером (0:24)</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.24s" data-cat="zola" data-src="videos/z5.mp4" data-title="Что в наборе ZOLA (0:10)" data-desc="Распаковка одними руками системы Brow &amp; Lash: каждый флакон достают из коробки, этикетки к камере." data-tags="CapCut|Распаковка|Продукт"><span class="shot"><img src="thumbs/z5.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Что в наборе ZOLA (0:10)</span><span class="g">CapCut</span></span></button>
+<button class="tile r" style="--d:0.00s" data-cat="zola" data-src="videos/z6.mp4" data-title="Гиганты ZOLA в Ереване (0:10)" data-desc="ИИ-сцена: гигантские флаконы ZOLA приземляются на Каскаде в Ереване, земля трескается, толпа снимает их на телефоны. Хук для бренда, останавливающий скролл." data-tags="Генерация видео ИИ|Сюрреалистичный хук|CapCut"><span class="shot"><img src="thumbs/z6.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Гиганты ZOLA в Ереване (0:10)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r" style="--d:0.06s" data-cat="zola" data-src="videos/z7.mp4" data-title="Очередь к мастеру по ресницам (0:10)" data-desc="ИИ-сцена: длинная очередь клиенток тянется вниз по Каскаду к студии мастера, затем склейка на её работу с продуктами ZOLA на столе." data-tags="Генерация видео ИИ|Консистентность персонажа|Бьюти"><span class="shot"><img src="thumbs/z7.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Очередь к мастеру по ресницам (0:10)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r" style="--d:0.12s" data-cat="zola" data-src="videos/z8.mp4" data-title="«Суперсила на проспекте» (0:10)" data-desc="ИИ-сцена: мастер идёт по городскому проспекту, и толпа женщин следует за ней в уличное кафе. Та же ведущая, что и в других сгенерированных клипах." data-tags="Генерация видео ИИ|Консистентность персонажа|История"><span class="shot"><img src="thumbs/z8.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">«Суперсила на проспекте» (0:10)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r" style="--d:0.18s" data-cat="zola" data-src="videos/z9.mp4" data-title="Один рабочий день: от утра до ночи (0:17)" data-desc="ИИ-таймлапс одного дня в студии: мастер у двери утром, клиентки в течение дня, то же помещение ночью." data-tags="Генерация видео ИИ|Таймлапс|История"><span class="shot"><img src="thumbs/z9.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Один рабочий день: от утра до ночи (0:17)</span><span class="g">Генерация видео ИИ</span></span></button>
+<button class="tile r" style="--d:0.24s" data-cat="zola" data-src="videos/z10.mp4" data-title="Мастер представляет ZOLA (0:10)" data-desc="ИИ-видео с ведущей: мастер показывает наборы ZOLA Brow &amp; Lash на столе, по одному продукту." data-tags="ИИ-ведущая|Продукт|Бьюти"><span class="shot"><img src="thumbs/z10.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Мастер представляет ZOLA (0:10)</span><span class="g">ИИ-ведущая</span></span></button>
+<button class="tile r" style="--d:0.00s" data-cat="design" data-src="videos/37.mp4" data-title="Рекламный концепт модного бренда — чёрное платье (0:08)" data-desc="Премиально-минималистичная модная реклама: модель в чёрном платье с фестончатым подолом на тёплом бежевом фоне идёт к камере, затем детали выреза и подола. Сгенерировано в Google Flow (Veo); сдано вместе с подходящим постером." data-tags="Google Flow (Veo)|Реклама моды|Постер|Моушн"><span class="shot"><img src="thumbs/37.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Рекламный концепт модного бренда — чёрное платье (0:08)</span><span class="g">Google Flow (Veo)</span></span></button>
+<button class="tile r" style="--d:0.06s" data-cat="design" data-src="videos/39.mp4" data-title="Роскошное платье — визуальный этюд (0:08)" data-desc="Девушка в розовом тюлевом платье с рукавами-помпонами и хрустальным поясом, мягкое боке и студийный свет: общий, средний план и портрет, показывающие платье как часть истории бренда, а не каталожный снимок. Сгенерировано в Google Flow (Veo)." data-tags="Google Flow (Veo)|Реклама моды|Моушн"><span class="shot"><img src="thumbs/39.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Роскошное платье — визуальный этюд (0:08)</span><span class="g">Google Flow (Veo)</span></span></button>
+<button class="tile r" style="--d:0.12s" data-cat="design" data-src="videos/33.mp4" data-title="Минималистичная карточка товара → анимация" data-desc="Статичный минималистичный дизайн товара превращён в премиальный моушн-ролик: едва заметное движение, мягкий свет, плавное движение камеры, все детали сфокусированы на продукте." data-tags="Дизайн товара|Анимация"><span class="shot"><img src="thumbs/33.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Минималистичная карточка товара → анимация</span><span class="g">Дизайн товара</span></span></button>
+<button class="tile r" style="--d:0.18s" data-cat="design" data-src="videos/35.mp4" data-title="Визуал «Премиум = просто»" data-desc="Чистая композиция и чёткая иерархия делают товар дорогим на вид — тот же принцип, по которому устроены витрины элитных магазинов." data-tags="Дизайн товара|Анимация"><span class="shot"><img src="thumbs/35.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Визуал «Премиум = просто»</span><span class="g">Дизайн товара</span></span></button>
+<button class="tile r wide" style="--d:0.24s" data-cat="design" data-src="videos/24.mp4" data-title="Пароочиститель — карточка товара для маркетплейса" data-desc="Начал с SERP-анализа главного ключевого запроса клиента: карточки конкурентов были коричневыми и тёмными, поэтому дизайн намеренно ломает шаблон, чтобы выделяться в выдаче." data-tags="Дизайн для маркетплейсов|SERP-исследование|Анимация"><span class="shot"><img src="thumbs/24.jpg" alt="" loading="lazy"><span class="play"></span></span><span class="meta"><span class="t">Пароочиститель — карточка товара для маркетплейса</span><span class="g">Дизайн для маркетплейсов</span></span></button>
+  </div>
+  <button class="more" id="more">Показать все 95 видео</button>
+</div></section>
+
+<section id="process"><div class="w">
+  <div class="hd r"><h2>Как я работаю</h2></div>
+  <div class="steps">
+    <div class="r"><b>01</b><h3>Бриф и анализ</h3><p>Цель, аудитория и то, что уже работает в вашей нише в TikTok и Meta Ad Library.</p></div>
+    <div class="r" style="--d:.08s"><b>02</b><h3>Хуки и сценарий</h3><p>Несколько вариантов хука на первые 1–3 секунды и плотная структура для остального ролика.</p></div>
+    <div class="r" style="--d:.16s"><b>03</b><h3>Монтаж и ИИ-сцены</h3><p>Монтаж, субтитры, звук и музыка; сгенерированные ИИ кадры там, где снять невозможно.</p></div>
+    <div class="r" style="--d:.24s"><b>04</b><h3>Вариации и сдача</h3><p>Вариации хуков для тестов, форматы под каждую платформу, быстрые правки.</p></div>
+  </div>
+</div></section>
+
+<section id="about"><div class="w about">
+  <div class="r">
+    <p class="eb" style="margin-bottom:18px">Обо мне</p>
+    <p class="big">1,5+ года в коротком контенте — фриланс для блогеров, фитнес-тренеров и небольших брендов, а сейчас <em>in-house креатор, который каждую неделю делает короткие рекламные ролики</em> для потребительского бренда на рынке США.</p>
+  </div>
+  <div class="r" style="--d:.1s">
+    <div class="facts">
+      <div><span>Локация</span><b>Будапешт, Венгрия · CET</b></div>
+      <div><span>Языки</span><b>Английский B2+ · украинский и русский — родные · венгерский A2</b></div>
+      <div><span>Открыт к</span><b>Удалённой работе: full-time, part-time и фриланс</b></div>
+      <div><span>Форматы</span><b>TikTok · Reels · Shorts · реклама в Meta</b></div>
+    </div>
+    <div class="tools"><span>CapCut</span><span>Higgsfield</span><span>Google Flow / Veo</span><span>Kling</span><span>Runway</span><span>Seedance</span><span>ElevenLabs</span><span>Midjourney</span><span>Claude</span><span>ChatGPT · Gemini</span></div>
+  </div>
+</div></section>
+
+<section id="contact" class="contact"><div class="w">
+  <h2 class="r">Сделаем ваше следующее<br>видео <em>эффективным.</em></h2>
+  <p class="sub r" style="--d:.08s">Открыт к удалённой работе на full-time или part-time и к фриланс-проектам. Отвечаю в течение дня.</p>
+  <div class="links">
+    <a class="r" href="mailto:ddrafaelian2009@gmail.com"><small>Email</small><span>ddrafaelian2009@gmail.com</span><i>↗</i></a>
+    <a class="r" style="--d:.06s" href="https://wa.me/380635227711" target="_blank" rel="noopener"><small>WhatsApp</small><span>+380 63 522 7711</span><i>↗</i></a>
+    <a class="r" style="--d:.12s" href="https://t.me/david_rafaelian" target="_blank" rel="noopener"><small>Telegram</small><span>@david_rafaelian</span><i>↗</i></a>
+    <a class="r" style="--d:.18s" href="https://www.linkedin.com/in/davyd-rafaelian/" target="_blank" rel="noopener"><small>LinkedIn</small><span>davyd-rafaelian</span><i>↗</i></a>
+    <a class="r" style="--d:.24s" href="cv.pdf" target="_blank" rel="noopener"><small>CV</small><span>Скачать PDF (англ.)</span><i>↗</i></a>
+  </div>
+  <footer><span>© 2026 Davyd Rafaelian</span><span>Монтажёр коротких видео и креатор ИИ-видео · Будапешт</span></footer>
+</div></section>
+</main>
+
+<dialog id="player" aria-label="Видеоплеер">
+  <button class="x" id="close" aria-label="Закрыть">×</button>
+  <div class="pl">
+    <video id="vid" controls playsinline></video>
+    <div><h3 id="vt"></h3><p id="vd"></p><div class="tg" id="vg"></div></div>
+  </div>
+</dialog>
+
+<script>
+// nav background after scrolling
+const nav = document.getElementById('nav');
+const onScroll = () => nav.classList.toggle('s', scrollY > 30);
+addEventListener('scroll', onScroll, {passive: true}); onScroll();
+
+// reveal on scroll
+const io = new IntersectionObserver(es => es.forEach(e => {
+  if (!e.isIntersecting) return;
+  e.target.classList.add('in'); io.unobserve(e.target);
+  const n = e.target.querySelector('[data-count]');
+  if (n && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const to = +n.dataset.count, t0 = performance.now();
+    const step = t => { const k = Math.min(1, (t - t0) / 1200); n.textContent = Math.round(to * (1 - Math.pow(1 - k, 3))); if (k < 1) requestAnimationFrame(step); };
+    requestAnimationFrame(step);
+  }
+}), {threshold: .12, rootMargin: '0px 0px -40px 0px'});
+document.querySelectorAll('.r').forEach(el => io.observe(el));
+
+// player
+const dlg = document.getElementById('player'), vid = document.getElementById('vid');
+document.querySelectorAll('[data-src]').forEach(t => t.addEventListener('click', () => {
+  vid.src = t.dataset.src; vid.poster = t.querySelector('img').src;
+  document.getElementById('vt').textContent = t.dataset.title;
+  document.getElementById('vd').textContent = t.dataset.desc;
+  const g = document.getElementById('vg'); g.innerHTML = '';
+  t.dataset.tags.split('|').forEach(x => { const s = document.createElement('span'); s.textContent = x; g.appendChild(s); });
+  dlg.showModal(); vid.play().catch(() => {});
+}));
+const shut = () => { vid.pause(); vid.removeAttribute('src'); vid.load(); dlg.close(); };
+document.getElementById('close').onclick = shut;
+dlg.addEventListener('click', e => { if (e.target === dlg) shut(); });
+dlg.addEventListener('cancel', e => { e.preventDefault(); shut(); });
+
+// style cards: muted preview on hover (mouse devices only)
+if (matchMedia('(hover: hover)').matches) document.querySelectorAll('.st').forEach(st => {
+  let v;
+  st.addEventListener('mouseenter', () => {
+    if (!v) { v = document.createElement('video'); v.muted = true; v.loop = true; v.playsInline = true; v.preload = 'auto'; v.src = st.dataset.src; st.querySelector('.im').appendChild(v); }
+    v.currentTime = 0; v.play().then(() => st.classList.add('on')).catch(() => {});
+  });
+  st.addEventListener('mouseleave', () => { st.classList.remove('on'); v && v.pause(); });
+});
+
+// tabs + "show all": the All tab starts with the first FIRST videos
+const FIRST = 15, more = document.getElementById('more'); let all = false;
+function filter(f) {
+  let k = 0, shown = 0;
+  document.querySelectorAll('#grid .tile').forEach(t => {
+    const show = (f === 'all' || t.dataset.cat === f) && (f !== 'all' || all || shown < FIRST);
+    if (f === 'all' || t.dataset.cat === f) shown++;
+    const was = !t.hidden; t.hidden = !show;
+    if (show && !was) { t.classList.remove('in'); t.style.setProperty('--d', Math.min(k++, 10) * .04 + 's'); void t.offsetWidth; t.classList.add('in'); }
+  });
+  more.hidden = f !== 'all' || all;
+  document.querySelectorAll('.catsub').forEach(p => p.hidden = p.dataset.cat !== f);
+}
+document.querySelectorAll('.tab').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('.tab').forEach(x => { x.classList.toggle('on', x === b); x.setAttribute('aria-selected', x === b); });
+  filter(b.dataset.f);
+}));
+more.addEventListener('click', () => { all = true; filter('all'); });
+filter('all');
+</script>
+</body>
+</html>
